@@ -13,7 +13,7 @@
     
         body {
             display: grid;
-            grid-template-columns: 1fr minmax(200px 800px) 1fr;
+            grid-template-columns: 1fr minmax(200px, 800px) 1fr;
             width: 100vw;
             height: 100vh;
         }
@@ -21,18 +21,26 @@
         .grid-item {
             text-align: center;
         }
+        
+        .aligner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     </style>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
     <div class="grid-item"></div>
-    <div class="grid-item">
+    <div class="grid-item aligner">
+        <div>
         <h2>Future home of Richard Danner</h2>
         <div>
-            <p>Quilting</p>
-            <p>Food</p>
+            <p><a href="quilting_verbage.html">Quilting</a></p>
+            <p><a href="food_verbage.html">Food</a></p>
             <p>Blog</p>
+        </div>
         </div>
     </div>
     <div class="grid-item"></div>
