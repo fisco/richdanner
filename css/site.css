@@ -1,0 +1,20 @@
+:root {
+    --body-font: Roboto, sans-serif;
+    --heading-font: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+    font-family: var(--body-font);
+    font-display: fallback;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
