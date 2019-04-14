@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+
 :root {
     --body-font: Roboto, sans-serif;
-    --heading-font: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+    --heading-font: "Open Sans", Roboto, Arial, Helvetica, sans-serif;
     font-family: var(--body-font);
     font-display: fallback;
 }
@@ -17,4 +20,8 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
+}
+
+.uppercase {
+    text-transform: uppercase;
 }

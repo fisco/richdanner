@@ -1,0 +1,20 @@
+body {
+    display: grid;
+    grid-row-gap: 2rem;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    grid-template-areas:    "header      header header"
+                            "margin_left main   margin_right"
+                            "footer      footer footer"
+}
+
+body > footer {
+    grid-area: footer;
+}
+
+body > header {
+    grid-area: header;
+}
+
+body > main {
+    grid-area: main;
+}
